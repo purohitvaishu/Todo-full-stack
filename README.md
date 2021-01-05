@@ -53,4 +53,4 @@ Python - A programming language that lets you work quickly and integrate systems
 Django - A high-level Python Web framework that encourages rapid development and clean, pragmatic design.
 
 # Live Site
-Frontend: [https://todo-design-application.netlify.app/]
+Frontend: [https://frontend-todo.netlify.app/]
