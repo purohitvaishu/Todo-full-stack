@@ -22,7 +22,7 @@ Create React APP
 # Getting started
 Clone the project to your machine [git clone https://github.com/purohitvaishu/Todo-full-stack.git]
 
-Navigate into the diretory [cd Todo] [cd backend]
+Navigate into the diretory [cd Todo]
 
 Source the virtual environment [pipenv shell]
 
