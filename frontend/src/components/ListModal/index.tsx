@@ -125,7 +125,7 @@ const ListModal: FunctionComponent<Props> = (props: Props) => {
       list.data.map(element => element.completed && i++);
       setCompleted(i);
     }
-  }, [list]);
+  }, [list, total]);
 
   const handleEdit = (element: Record<string, any>, name: string) => {
     const value = {

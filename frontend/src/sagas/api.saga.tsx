@@ -52,6 +52,7 @@ function* apiSaga(action) {
 }
 
 // eslint-disable-next-line func-names
+// eslint-disable-next-line import/no-anonymous-default-export
 export default function*() {
   yield takeEvery(CALL_API, apiSaga);
 }

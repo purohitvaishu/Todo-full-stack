@@ -61,7 +61,7 @@ const Bucket: React.FC = (props: any) => {
 
   useEffect(() => {
     if (!list.length) getTodo();
-  }, [props]);
+  }, [list, getTodo]);
 
   return (
     <Grid container style={{ display: "flex" }} spacing={4}>

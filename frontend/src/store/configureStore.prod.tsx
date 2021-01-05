@@ -16,4 +16,5 @@ const configureStore = initialState => {
   return createStore(createRootReducer, initialState, enhancer);
 };
 
+// eslint-disable-next-line import/no-anonymous-default-export
 export default { configureStore, history, sagaMiddleware };
